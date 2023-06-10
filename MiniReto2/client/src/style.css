@@ -1,0 +1,106 @@
+.App{
+    height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    text-align:center;
+}
+
+.albums{
+    display: flex;
+    flex-direction: column;
+}
+
+.album{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+    background-color: rgb(33, 142, 185);
+}
+
+.delete{
+    border: none;
+    padding: 6px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+    margin-bottom: 10px;
+}   
+
+.update{
+    border: none;
+    padding: 6px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(109, 0, 100);
+    margin-bottom: 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.formButton{
+    border: none;
+    padding: 10px;
+    background-color: rgb(92, 187, 105);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+body{
+    background-image: url('images/brick-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000;
+}
+
+h2{
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000;
+}
+
+p{
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000;
+}
+
+.addAlbum{
+    padding: 3px 6px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
